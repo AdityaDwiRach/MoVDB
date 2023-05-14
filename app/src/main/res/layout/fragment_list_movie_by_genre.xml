@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ListMoviesByGenreFragment">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/sl_list_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shimmer_shape="linear">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/ll_list_movie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/item_movie_placeholder" />
+
+            <include
+                layout="@layout/item_movie_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp" />
+
+            <include layout="@layout/item_movie_placeholder" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list_movie_by_genre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:listitem="@layout/item_movie" />
+
+</FrameLayout>

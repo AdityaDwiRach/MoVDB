@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MoVDB" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorSecondary">@color/light_blue</item>
+    </style>
+
+    <style name="Theme.MoVDB" parent="Base.Theme.MoVDB" />
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/listGenreFragment">
+
+    <fragment
+        android:id="@+id/listGenreFragment"
+        android:name="com.adr.movdb.view.ListGenresFragment"
+        android:label="fragment_list_genre"
+        tools:layout="@layout/fragment_list_genres">
+
+        <action
+            android:id="@+id/action_listGenreFragment_to_listMovieByGenreFragment"
+            app:destination="@id/listMovieByGenreFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/listMovieByGenreFragment"
+        android:name="com.adr.movdb.view.ListMoviesByGenreFragment"
+        android:label="fragment_list_movie_by_genre"
+        tools:layout="@layout/fragment_list_movie_by_genre">
+
+        <action
+            android:id="@+id/action_listMovieByGenreFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="com.adr.movdb.view.MovieDetailFragment"
+        android:label="fragment_movie_detail"
+        tools:layout="@layout/fragment_movie_detail">
+
+        <action
+            android:id="@+id/action_movieDetailFragment_to_reviewDetailDialogFragment"
+            app:destination="@id/reviewDetailDialogFragment"/>
+    </fragment>
+
+    <dialog
+        android:id="@+id/reviewDetailDialogFragment"
+        android:name="com.adr.movdb.view.component.ReviewBottomSheet"
+        android:label="fragment_dialog_review_detail"
+        tools:layout="@layout/fragment_review_detail_bottom_sheet">
+    </dialog>
+</navigation>
