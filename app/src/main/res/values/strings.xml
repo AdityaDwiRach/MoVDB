@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MoVDB</string>
+    <string name="success_update_record">Successfully update record.</string>
+    <string name="success_delete_record">Successfully delete record.</string>
+    <string name="success_entry_not_found">Edit entry cannot be executed. Entry not found.</string>
+    <string name="error_comm">Communication error. Please try again.</string>
+    <string name="error_admin">Error. Please contact your Administrator.</string>
+    <string name="error_auth_admin">Authentication error. Please contact your Administrator</string>
+    <string name="error_input">Your input is invalid. Please check again.</string>
+    <string name="error_entry_not_found">Data not found. Please try with another keyword</string>
+    <string name="error_entry_duplicated">Data already exist.</string>
+
+    <string name="genre_default">Unknown</string>
+    <string name="title_default">Title</string>
+    <string name="release_date_default">YY-MM-dd</string>
+    <string name="vote_rating">%.1f/10 from %d votes</string>
+    <string name="vote_rating_review">%d/10</string>
+    <string name="overview">Overview</string>
+    <string name="trailer">Trailer</string>
+    <string name="review">Review</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque lectus odio, et consectetur sem luctus sed. Donec blandit eu nisi ut tempor. Morbi viverra commodo orci, in pretium ante iaculis sit amet. Proin euismod elementum felis, non congue sem. Proin finibus vitae eros id ultricies. Fusce et erat et justo consequat porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse ultricies turpis vel tellus volutpat, a tincidunt leo commodo. Vestibulum quis ipsum aliquet, dapibus arcu a, volutpat elit. Praesent euismod elementum est, nec varius felis varius id. Quisque neque orci, rutrum a nulla at, ultrices commodo lorem.</string>
+    <string name="video_unavailable">Sorry, currently video not available</string>
+    <string name="author">Author</string>
+    <string name="retry">Retry</string>
+    <string name="dismiss">Dismiss</string>
+</resources>
