@@ -1,0 +1,201 @@
+{
+  "uuid": "544bbcf6-bb7b-42fa-9fc4-16dcbdf6b6db",
+  "lastMigration": 25,
+  "name": "MoVDB Mock",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3002,
+  "hostname": "0.0.0.0",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "dfaf70c7-067a-4d1e-9a66-75b2618504c8",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "genre/movie/list",
+      "responses": [
+        {
+          "uuid": "47156177-2253-4199-9bff-f4e100d95965",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "c3477dfe-dc74-45ef-b862-0a641b519896",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "movie/640146",
+      "responses": [
+        {
+          "uuid": "b41d8d24-4757-41be-a46a-95398495cce8",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "a8f0d71f-d800-4f16-be66-5b1c278c3131",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "discover/movie",
+      "responses": [
+        {
+          "uuid": "fd05de0c-f6eb-4863-a535-0729f4bb7d26",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "6c91c0ac-a899-46f1-917c-160e397a041a",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "movie/640146/reviews",
+      "responses": [
+        {
+          "uuid": "16fa2266-40c9-4aab-8a5b-f04162519805",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "aef2594f-e5f7-4b7c-afb0-6607a2314dd0",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "movie/640146/videos",
+      "responses": [
+        {
+          "uuid": "3b78b175-7627-4d1b-b831-678dae954dc7",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "dfaf70c7-067a-4d1e-9a66-75b2618504c8"
+    },
+    {
+      "type": "route",
+      "uuid": "a8f0d71f-d800-4f16-be66-5b1c278c3131"
+    },
+    {
+      "type": "route",
+      "uuid": "c3477dfe-dc74-45ef-b862-0a641b519896"
+    },
+    {
+      "type": "route",
+      "uuid": "6c91c0ac-a899-46f1-917c-160e397a041a"
+    },
+    {
+      "type": "route",
+      "uuid": "aef2594f-e5f7-4b7c-afb0-6607a2314dd0"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
